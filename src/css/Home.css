@@ -1,0 +1,89 @@
+.homepage{
+    height: 100%;
+}
+
+.search-card{
+    box-shadow: 3px 3px 10px #e6e8eb, 3px 3px 10px #e6e8eb;
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    border-radius: 8px;
+    border-color: white;
+    
+}
+
+.file-head{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+}
+.file-description{
+    padding-left: 15px;
+    text-align: left;
+}
+.search-card h4{
+    position: relative;
+}
+
+.search-card:hover{
+    box-shadow: -10px 10px 15px #e6e8eb, 10px -10px 15px #e6e8eb;
+    border: solid 2px rgb(0, 183, 255);
+    background-color: white;
+}
+
+.brand-name{
+    position: relative;
+width: 834px;
+height: 90px;
+top: 15%;
+
+font-family: Preah Vihear;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 118px;
+text-align: center;
+
+color: #D6EBFF;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+  }
+
+.searchbar{
+    position: relative;
+    width: 40%;
+    top: 25%;
+}
+
+.button{
+    position: relative;
+    top: 50%;
+    height: 50%;
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+.pagination div {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination div.active {
+  background-color: #CFD186;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination div:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
